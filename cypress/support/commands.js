@@ -25,6 +25,7 @@
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('seedAndVisit', (seedData = 'fixture:todos') => {
+    cy.log(seedData)
     cy.server()
     cy.route('GET', '/api/todos', seedData).as('load')
     
