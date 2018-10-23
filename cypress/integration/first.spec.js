@@ -1,5 +1,5 @@
 describe('Simple test', () => {
-  it('Works', () => {
-    expect(true).to.equal(true)
-  })
+    it('Works', () => {
+        expect(true).to.equal(true)
+    })
 })

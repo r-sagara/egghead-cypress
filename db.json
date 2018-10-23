@@ -1,3 +1,34 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "name": "something",
+      "isComplete": false,
+      "id": 1
+    },
+    {
+      "name": "asdf",
+      "isComplete": false,
+      "id": 2
+    },
+    {
+      "name": "again",
+      "isComplete": false,
+      "id": 3
+    },
+    {
+      "name": "^(*^&TGUOALDK",
+      "isComplete": false,
+      "id": 4
+    },
+    {
+      "name": "Buy Milk",
+      "isComplete": false,
+      "id": 5
+    },
+    {
+      "name": "New TODO",
+      "isComplete": false,
+      "id": 6
+    }
+  ]
 }
